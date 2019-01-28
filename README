@@ -1,3 +1,4 @@
-Document Me!
-tes_file
+This repo contains the python source code to run method described in "Topological data analysis reveals principles ofchromosome structure throughout cellulardifferentiation", specifically, apply persistent homology method to HiC data and anaylze structure changes across cell types. 
+
+
 
