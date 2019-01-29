@@ -6,7 +6,7 @@ This repo contains the python source code to run the method described in "Topolo
 
 # Dependencies
 
-To use this python source code, you must have installed GUDHI library first. GUDHI is a python package used for topological data analysi(TDA), and you can visit the webpage (http://gudhi.gforge.inria.fr/python/latest/) for more information. 
+To use this python source code, you must have installed GUDHI library first. GUDHI is a python package used for topological data analysis(TDA), and you can visit the webpage (http://gudhi.gforge.inria.fr/python/latest/) for more information. 
 
 Install GUDHI with conda: 
 conda install -c conda-forge gudhi
@@ -33,12 +33,14 @@ Run this command line, and we will get three output files:
 
 1: RUES2_CM_combined_100000_iced_chr22_distmat.txt
 This file saves the distance matrix generated from original HiC contact matrix. 
+
 2: RUES2_CM_combined_100000_iced_chr22_persisdiagram.txt
 This file contains all the persistent diagram generated from persistent homology
 - the first column: the dimension of a homology class
 - the second column: birth time
 - the third column: death time
 - the fourth column: persitence pairs
+
 3: RUES2_CM_combined_100000_iced_chr22_skeleton.txt
 This file contains all the sinmplices generated from persistent homology. 
 - the first column: a set of nodes representing one simplex
